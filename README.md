@@ -8,3 +8,7 @@ During build time, the c++ files are compiled and linked against system QT libra
 To use the qt crate, add it as a dependency in Cargo.toml and create a new qt::QtApp Instance by giving it the path to a qml file. Run the app by calling the `run` member function.
 
 Check qt/build.rs for required system dependencies, following the [kde getting started page](https://develop.kde.org/docs/kirigami/introduction-getting_started/) should provide everything you need.
+
+
+# Example
+![Screenshot of bare bones hello world app](readme/screenshot_of_application.png)
