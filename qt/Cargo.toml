@@ -1,0 +1,16 @@
+[package]
+name = "qt"
+version = "0.1.0"
+edition = "2021"
+links = "qt"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cxx = "1.0.62"
+
+[build-dependencies]
+cxx-build = "1.0.62"
+pkg-config = "0.3.24"
+fs_extra = "1.2.0"
+anyhow = "1.0.52"

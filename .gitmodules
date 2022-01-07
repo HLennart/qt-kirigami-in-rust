@@ -1,0 +1,3 @@
+[submodule "qt/kirigami"]
+	path = qt/kirigami
+	url = https://invent.kde.org/frameworks/kirigami.git
